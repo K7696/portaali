@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/kotitoim/public_html/
-    - /bin/cp -R portaali/ $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
