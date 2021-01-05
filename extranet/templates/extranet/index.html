@@ -1,0 +1,10 @@
+{% extends "general_layout.html" %}
+
+{% block content %}
+
+{% for companycustomer in customer_list %}
+    <div>{{ companycustomer.company_name }}</div>
+{% endfor %}
+
+{% endblock %}
+
